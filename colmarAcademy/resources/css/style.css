@@ -1,0 +1,438 @@
+html{
+  font-size: 16px;
+  font-family: "Miriam Libre",sans-serif;
+
+}
+
+h1, h2, header a{
+  font-family: "Miriam Libre",sans-serif;
+}
+
+
+h1{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+h2{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+h1,h2{
+line-height: 1.2;
+color:hsl(181, 100%, 41%);
+}
+
+a{
+  text-decoration: none;
+  color: deeppink;
+  font-size: 0.875rem;
+  transition: all 200ms ease-in;
+}
+
+a:hover{
+  color:#990052;
+}
+
+a:active{
+  color:#4d0029;
+}
+
+p{
+  line-height: 1.6;
+}
+
+
+
+header{
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top:0;
+  background-color: rgba(255,255,255,0.97);
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.logo p{
+  font-family: "Tinos", serif;
+}
+
+.logo p span{
+  color: hsl(181, 75%, 41%)
+
+}
+
+.navi{
+  margin-right: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navi .navImage{
+  display: none;
+}
+
+.navi a:nth-child(1n+2){
+  margin-left: 1rem;
+}
+
+.section{
+  display: flex;
+  width: 100%;
+}
+
+
+.turquoiseSection{
+  background-color: hsl(181, 100%, 41%);
+}
+
+.turquoiseSection h1, .turquoiseSection p{
+  color:white;
+}
+
+.sectionImage{
+  margin: 2rem 1.5rem;
+  width: 60%;
+  height: auto;
+  margin-right: 1.5rem;
+}
+
+.sectionImage h1{
+  margin-top: 2rem;
+}
+
+.sectionImage h2{
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.sectionImage .adress{
+  margin-top: 2rem;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+.sectionImage img{
+  width:100%;
+  height: auto;
+}
+
+.sectionContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:40%;
+}
+
+.banner{
+  margin-top: 4rem;
+}
+
+.bannerText{
+  width: 70%
+}
+
+.mainInformation{
+    justify-content:flex-start;
+    padding: 1rem 0;*/
+}
+
+
+.bannerText a{
+  display: block;
+  width: 85%;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: white;
+  margin-top: 1.5rem;
+}
+
+.bannerText a:hover{
+  background: deeppink;
+  color:white;
+}
+
+
+.bannerText a:active{
+  background-color: #4d0029;
+}
+
+.newsTeaser{
+  display: flex;
+  padding: 1rem;
+}
+
+.newsTeaser p{
+  line-height: 1.2;
+}
+
+.newsTeaser .image{
+  width: 35%;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.newsTeaserContent{
+  width:65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newsTeaserContent p{
+  margin: 0.5rem 0;
+}
+
+.image img{
+  width:100%;
+  height: auto;
+}
+
+.courseSection{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.courseSection h1{
+  margin-bottom: 0rem;
+}
+
+.courses{
+  width: 80%;
+  margin: 1rem auto;
+  /*3.5rem;*/
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+.course{
+  /*min-width: 30%;*/
+  width: 18.375rem;
+  /*min-height: 18.375rem;*/
+  margin:1rem;
+  background-color: white;
+  transition: all 150ms ease-in;
+  cursor: pointer;
+}
+
+.course:hover{
+  background-color: deeppink;
+}
+
+.course:active{
+  background-color: #4d0029;
+}
+
+.course:hover h2, .course:hover h3, .course:hover p{
+  color:white;
+}
+
+.courseText{
+  margin: 1rem;
+}
+
+.courseText h2{
+  color:deeppink;
+}
+
+.courseText h3{
+  margin:0.5rem 0;
+  text-transform: uppercase;
+  color:hsl(181, 100%, 41%);
+}
+
+.courseText p{
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+
+.thesisSection{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thesisInformation{
+  padding-top: 2rem;
+}
+.video{
+  width: 100%;
+}
+
+footer{
+  padding: 1rem 1.5rem ;
+  background-color: hsl(181, 100%, 41%);
+  display: flex;
+  justify-content: space-between;
+
+}
+
+footer p, footer a{
+  font-size: 0.7rem;
+}
+
+footer a{
+  background-color: white;
+  padding: 0.3rem 0.75rem;
+}
+
+footer a:hover{
+  color: white;
+  background: deeppink;
+}
+
+footer a:active{
+  background-color: #4d0029;
+}
+
+footer a:first-child{
+  margin-right: 1rem;
+}
+
+
+
+@media only screen and (max-width: 775px) {
+  .sectionImage {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (max-width: 650px){
+
+
+.section{
+  flex-direction: column;
+}
+
+.sectionImage{
+  width: 100%;
+  margin:0;
+}
+
+.sectionContent{
+  width: auto;
+  margin: 2rem 1rem;
+}
+
+.bannerText{
+width: 100%;
+}
+
+.bannerText a{
+  width: auto;
+}
+.mainInformation{
+  padding: 0;
+}
+
+.mainInformationTeaser{
+  display:none;
+}
+
+.newsTeaser{
+  flex-direction: column;
+  margin: 0 0 4rem 0;
+  padding: 0;
+}
+
+.newsTeaser .image{
+  width: auto;
+  margin-bottom: 1rem;
+  margin-right: 0;
+}
+/*:first-child .image */
+.newsTeaser:first-child img{
+  content: url("../images/information-orientation-mobile.jpg");
+}
+
+.newsTeaser:first-child img{
+  content: url("../images/information-orientation-mobile.jpg");
+}
+
+.newsTeaser:nth-child(2n+2) img{
+  content: url("../images/information-campus-mobile.jpg");
+}
+
+.newsTeaser:last-child img{
+  content: url("../images/information-guest-lecture-mobile.jpg");
+}
+
+.courses{
+  width: 100%;
+  margin: 1.5rem 1rem;
+}
+
+.course{
+    width: 100%;
+    margin: 0.5rem 1rem;
+}
+
+.course .image{
+  display: none;
+}
+
+.courseText h2{
+  text-align: center;
+}
+
+.courseText h3, .courseText p{
+display: none;
+ }
+
+ .thesisSection .section .sectionImage h2, .thesisSection .section .sectionImage p{
+   display: none;
+ }
+
+.thesisInformation{
+  display: none;
+}
+
+ footer a{
+   display: none;
+ }
+
+
+}
+
+
+@media only screen and (max-width: 575px){
+
+  .logo p{
+      display: none;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 420px){
+
+.navi .navText{
+  display: none;
+}
+
+.navi .navImage{
+  display: inline;
+}
+
+.navi a:nth-child(1n+2){
+  margin-left: 3rem;
+}
+
+
+
+}
